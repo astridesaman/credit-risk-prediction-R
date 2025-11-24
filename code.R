@@ -1,6 +1,6 @@
 ### =============================
 ###   PROJET : Défauts de paiement
-###   Script R - Base corrigé
+###   Script R - Base 
 ### =============================
 
 # Packages nécessaires
@@ -234,3 +234,4 @@ cat("\nFichier 'resultats_defaut.csv' généré avec succès.\n")
 
 resultat <- read.csv("resultats_defaut.csv", header = TRUE, sep = ",")
 resultat
+
